@@ -1,4 +1,44 @@
 {
-  "nome": "João da Silva",
-  "idade": 25
+  "escola": "Inatel",
+  "endereco": "Rua Principal, 123 - Minas Gerais",
+  "turma": "P6",
+  "anoLetivo": 2025,
+  "alunos": [
+    {
+      "nome": "João Silva",
+      "idade": 17,
+      "matricula": "2025001",
+      "notas": {
+        "matematica": 8.5,
+        "portugues": 7.0,
+        "historia": 9.0,
+        "ciencias": 6.5
+      },
+      "aprovado": true
+    },
+    {
+      "nome": "Maria Oliveira",
+      "idade": 16,
+      "matricula": "2025002",
+      "notas": {
+        "matematica": 6.0,
+        "portugues": 8.5,
+        "historia": 7.0,
+        "ciencias": 7.5
+      },
+      "aprovado": true
+    },
+    {
+      "nome": "Pedro Santos",
+      "idade": 18,
+      "matricula": "2025003",
+      "notas": {
+        "matematica": 5.0,
+        "portugues": 6.0,
+        "historia": 5.5,
+        "ciencias": 6.0
+      },
+      "aprovado": false
+    }
+  ]
 }
