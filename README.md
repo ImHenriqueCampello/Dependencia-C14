@@ -30,3 +30,15 @@ A principal dependência usada é o **Gson**, já configurado no `pom.xml`:
     <artifactId>gson</artifactId>
     <version>2.10.1</version>
 </dependency>
+```
+---
+## 🔄 Alterações do Código
+
+O código foi atualizado para lidar com um JSON mais complexo, representando uma **escola e seus alunos**.
+
+### Principais mudanças
+
+- Leitura de dados da escola: `escola`, `endereco`, `turma` e `anoLetivo`.
+- Iteração sobre a lista de alunos com `nome`, `idade`, `matricula`, notas por disciplina e status de aprovação.
+
+
