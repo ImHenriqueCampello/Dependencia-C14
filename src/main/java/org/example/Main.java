@@ -42,20 +42,21 @@ public class Main {
             String matricula = aluno.get("matricula").getAsString();
             boolean aprovado = aluno.get("aprovado").getAsBoolean();
 
-            JsonObject notas = aluno.getAsJsonObject("notas");
-            double matematica = notas.get("matematica").getAsDouble();
-            double portugues = notas.get("portugues").getAsDouble();
-            double historia = notas.get("historia").getAsDouble();
-            double ciencias = notas.get("ciencias").getAsDouble();
+            JsonObject disciplinas = aluno.getAsJsonObject("disciplinas");
+            double java = disciplinas.get("java").getAsDouble();
+            double python = disciplinas.get("python").getAsDouble();
+            double bancoDados = disciplinas.get("bancoDeDados").getAsDouble();
+            double redes = disciplinas.get("redes").getAsDouble();
+
 
             System.out.println("\nNome: " + nome);
             System.out.println("Idade: " + idade);
             System.out.println("Matrícula: " + matricula);
             System.out.println("Notas:");
-            System.out.println("  Matemática: " + matematica);
-            System.out.println("  Português: " + portugues);
-            System.out.println("  História: " + historia);
-            System.out.println("  Ciências: " + ciencias);
+            System.out.println("  Java: " + java);
+            System.out.println("  Python: " + python);
+            System.out.println("  Banco de Dados: " + bancoDados);
+            System.out.println("  Redes: " + redes);
             System.out.println("Aprovado: " + aprovado);
         }
     }

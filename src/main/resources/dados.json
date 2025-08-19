@@ -8,11 +8,11 @@
       "nome": "João Silva",
       "idade": 17,
       "matricula": "2025001",
-      "notas": {
-        "matematica": 8.5,
-        "portugues": 7.0,
-        "historia": 9.0,
-        "ciencias": 6.5
+      "disciplinas": {
+        "java": 8.5,
+        "python": 7.0,
+        "bancoDeDados": 9.0,
+        "redes": 6.5
       },
       "aprovado": true
     },
@@ -20,11 +20,11 @@
       "nome": "Maria Oliveira",
       "idade": 16,
       "matricula": "2025002",
-      "notas": {
-        "matematica": 6.0,
-        "portugues": 8.5,
-        "historia": 7.0,
-        "ciencias": 7.5
+      "disciplinas": {
+        "java": 6.0,
+        "python": 8.5,
+        "bancoDeDados": 7.0,
+        "redes": 7.5
       },
       "aprovado": true
     },
@@ -32,11 +32,11 @@
       "nome": "Pedro Santos",
       "idade": 18,
       "matricula": "2025003",
-      "notas": {
-        "matematica": 5.0,
-        "portugues": 6.0,
-        "historia": 5.5,
-        "ciencias": 6.0
+      "disciplinas": {
+        "java": 5.0,
+        "python": 6.0,
+        "bancoDeDados": 5.5,
+        "redes": 6.0
       },
       "aprovado": false
     }
