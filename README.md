@@ -40,5 +40,6 @@ O código foi atualizado para lidar com um JSON mais complexo, representando uma
 
 - Leitura de dados da escola: `escola`, `endereco`, `turma` e `anoLetivo`.
 - Iteração sobre a lista de alunos com `nome`, `idade`, `matricula`, notas por disciplina e status de aprovação.
+- MERGE: Mudou as materias de escola como 'matematica' para materia de programação como 'python' ou 'java'
 
 
