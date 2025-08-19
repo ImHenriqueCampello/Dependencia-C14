@@ -48,6 +48,7 @@ public class Main {
             double bancoDados = disciplinas.get("bancoDeDados").getAsDouble();
             double redes = disciplinas.get("redes").getAsDouble();
 
+
             System.out.println("\nNome: " + nome);
             System.out.println("Idade: " + idade);
             System.out.println("Matrícula: " + matricula);
