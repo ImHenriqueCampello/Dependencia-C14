@@ -42,4 +42,11 @@ O código foi atualizado para lidar com um JSON mais complexo, representando uma
 - Iteração sobre a lista de alunos com `nome`, `idade`, `matricula`, notas por disciplina e status de aprovação.
 - **MERGE:** Mudou as materias de escola como `matematica` para materias de programação como `python`. Merge foi resolvido optando para selecionar as materias de programação
 
+# 🧪 Testes Unitários com JUnit
+
+Este projeto contém testes unitários implementados em **Java** com o **JUnit 5**, totalizando **20 testes**. Tentamos testar diversos casos, situações que poderiam causar bugs e etc...
+
+- ✅ **10 Testes Positivos**
+- 🚫 **10 Testes Negativos**
+
 
